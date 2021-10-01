@@ -1,0 +1,365 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/images.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#index{
+	height: 100%;
+	width: 100%;
+	min-width: 920px;
+	min-height: 500px;
+
+}
+
+.conteudo{
+	width: 85%;
+	margin: 0 auto;
+	height: 100%;
+	min-width: 920px;
+}
+
+
+/*Header*/
+header{
+	width: 100%;
+	height: 13%;
+	background-color: #56ccf2;
+	min-width: 920px;
+	min-height: 60px;
+}
+
+#logos{
+	width: 100%;
+	height: 50%;
+}
+
+#logos img{
+	height: 100%;
+}
+
+#imagens-logos1{
+	width: 47%;
+	height: 100%;
+	display: inline-block;
+	padding-left: 10%;
+	text-align: left;
+}
+
+#imagens-logos2{
+	width: 47%;
+	height: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+
+
+#navegacao-principal{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+}
+
+#navegacao-principal a{
+	text-decoration: none;
+	height: 100%;
+	display: inline-block;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 20px;
+	color:#0404B4;
+}
+
+
+#navegacao-principal ul{
+	margin: 0px;
+	line-height: 200%;
+	padding: 0;
+	list-style: none;
+	height: 100%;
+	width: 80%;
+	display: inline-block;
+}
+
+#navegacao-principal li{
+	display: inline-block;
+	padding: 0 18px;
+	height: 100%;
+
+}
+
+#nome{
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 25px;
+	color:#0404B4;
+	display: inline-block;
+	width: 16%;
+	text-align: left;
+}
+
+#nome button{
+	display: inline-block;
+}
+
+#navegacao-principal a:hover{
+	border-bottom: 3px #8181F7 ridge;
+	color:  #8181F7;
+}
+
+#index #navegacao-principal .index a,
+#index-css #navegacao-principal .index a,
+#loginn #navegacao-principal .loginn a,
+#cadastro #navegacao-principal .cadastro a{
+	border-bottom: 3px #8181F7 ridge;
+	color:  #8181F7;
+}
+
+
+
+/*Corpo*/
+#corpo{
+	width: 100%;
+	height: 77%;
+	min-width: 920px;
+	min-height: 800px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#navegacao-lateral{
+	height: 100%;
+	width: 28%;
+	float: left;
+}
+
+#navegacao-lateral h2{
+	font-family:  "Trebuchet MS", sans-serif;
+	font-size: 25px;
+	text-align: center;	
+	height: 40px;
+	width: 100%;
+	color: #0404B4;
+	line-height: 40px;
+}
+
+#navegacao-lateral ul{
+	width: 100%;
+	height: 100%;
+	background-color: #56ccf2;
+}
+
+#navegacao-lateral li{
+	height: 40px;
+	width: 100%;
+	text-indent: 30px;
+}
+
+#navegacao-lateral a{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	background-image: url(../img/seta.png);
+	background-size: 30px 30px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-family: "Trebuchet MS", sans-serif;
+	text-decoration: none;
+	font-size: 18px;
+	color: #0404B4;
+}
+
+#navegacao-lateral a:hover{
+		color:  #fff;
+	background-color: #0000FF
+}
+
+
+#index #navegacao-lateral .html a,
+#index-css #navegacao-lateral .css a,
+#index-materias #navegacao-lateral  a,
+#index-provas #navegacao-lateral .provas a,
+#index-social #navegacao-lateral .social a{
+	color:  #fff;
+	background-color: #0000FF ;
+}
+
+#conteudo-principal{
+	width: 68%;
+	height: 100%;
+	float: right;
+}
+
+.perguntar{
+	text-align: left;
+	height: 48%;
+	padding-bottom: 1%;
+}
+
+.perguntar input[type="text"]{
+	width: 70%;
+	height: 100%;
+	margin:0;
+	padding: 0;
+}
+
+.titulo-tema{
+	display: inline-block;
+	padding-right: 8px;
+	font-family: "Trebuchet MS", sans-serif;
+	height: 40%;
+}
+
+.titulo-tema{
+	font-weight: bold;
+}
+
+#conteudo-principal #pergunte{
+	width: 100%;
+	height: 100px;
+}
+
+
+
+#postagem{
+	background-color: #56ccf2;
+	width: 70%;
+	min-height: 200px;
+	margin: 10px 0;
+}
+
+.info{
+	width: 100%;
+	height: 20%;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 20px;
+	text-indent: 15px;
+	line-height: 200%;	
+	font-style: italic;
+	background-color: 	#0000FF;
+}
+
+.info h3{
+	width: 48%;
+	display: inline-block;
+	color: #fff;
+}
+
+.info h4{
+	width: 20%;
+	display: inline-block;
+	font-size: 15px;
+	font-style: normal;
+	color: #fff;
+}
+
+.info p{
+	display: inline-block;
+	width: 48%;
+	font-size: 15px;
+	font-style: normal;
+	color: #fff;
+	text-align: right;
+}
+
+.conteudo-info{
+	width: 96%;
+	height: 68%;
+	color: #0404B4;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 15px;
+	text-indent: 15px;
+	line-height: 18px;
+	padding: 2%;
+}
+
+.conteudo-info input[type="button"]{
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.respostas{
+	font-size: 15px;
+	color: black;
+	margin-top: 60px;
+}
+
+.respostas p{
+	margin-bottom: 13px;
+	margin-top: 2px;
+	min-height: 100px;
+	border:inset #088A08 4px;
+	background: white;
+}
+
+.respostas h3{
+	display: inline-block;
+	color: black;
+	width: 48%;
+}
+
+.respostas h4{
+	display: inline-block;
+	color: black;
+}
+.respostas h6{
+	color: black;
+	display: inline-block;
+	width: 48%;
+	text-align: right;
+}
+
+.respostas #aluno-turma{
+	font-style: italic;
+	font-size: 18px;
+}	
+
+.respostas #responda{
+	height: 70px;
+}
+
+.hidden{
+	display: none;
+}
+
+
+.paginacao li{
+	display: inline;
+}
+
+.paginacao{
+	padding-left: 30px;
+}
+
+/*footer*/
+
+.clear{
+	clear: both;
+}
+
+
+
+
+/*Pagina input*/
+
+#login{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#login img{
+	
+}
+
+#perfil{
+	width: 100px;
+	margin: 0 auto;
+}
+
+#perfil img{
+	width: 100%;
+	margin-top: 50px;
+}
